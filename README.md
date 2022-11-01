@@ -1,3 +1,3 @@
 # ACM
 
-Contains solves from Codeforces and URI.
+Contains some of the solutions from my Codeforces and URI.
