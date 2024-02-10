@@ -1,4 +1,4 @@
-# Problem Solving for Job Interview Preparation
+# Problem Solving
 
 Contains some of the solutions from my Codeforces and URI. Recently started adding solutions from Leetcode. 
 
