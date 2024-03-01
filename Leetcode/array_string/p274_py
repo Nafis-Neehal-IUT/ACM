@@ -1,0 +1,12 @@
+class Solution:
+    def hIndex(self, citations: List[int]) -> int:
+        h = len(citations)
+        while(h):
+            #start with checking if there are at least 5 papers with more than 5 citations
+            numPapersReq = numCiteReq = h 
+            numPapersWithCiteReq = sum([1 if c>=numCiteReq else 0 for c in citations])
+            if numPapersWithCiteReq >= numPapersReq:
+                return numCiteReq
+            else:
+                h-=1
+        return 0
